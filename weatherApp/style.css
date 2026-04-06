@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.body{
+    background-color: blanchedalmond;
+}
+.card{
+    width:90%;
+    height: 470px;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    color : white;
+    border-radius: 20px;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border: none;
+    outline: none;
+    background: #ffecd2;
+    color: aquamarine;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-right: 16px;
+    flex: 1;
+    height: 60px;
+}
+.search button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #ffecd2;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button img{
+    width: 60px;
+}
+.weather img {
+    width: 10px;
+    height: 10px;
+}
