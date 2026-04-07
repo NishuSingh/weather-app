@@ -9,7 +9,7 @@
 }
 .card{
     width:90%;
-    height: 470px;
+    height: 520px;
     background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     color : white;
     border-radius: 20px;
@@ -27,10 +27,10 @@
     border: none;
     outline: none;
     background: #ffecd2;
-    color: aquamarine;
+    color: black;
     padding: 10px 25px;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 16px;
     flex: 1;
     height: 60px;
@@ -48,6 +48,52 @@
     width: 60px;
 }
 .weather img {
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+.temp{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.city{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.details {
+    display: flex;
+    justify-content: space-around; /* Adjusted for better spacing */
+    margin-top: 20px;
+    margin-bottom: 800px;
+    z-index: 10; /* Ensure it is above other elements */
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* Adjusted to prevent excessive spacing */
+}
+
+.col p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: black; /* Ensure text color contrasts with the background */
+}
+
+/* Uncommented and adjusted styles for .col img */
+.col img {
+    width: 30px;
+    height: auto;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 10px; /* Adjusted for better spacing */
+}
+.error {
+    display: none; /* Initially hidden */
+    color: red;
+    margin-top: 20px;
+}
+.weather {
+    display: none; /* Initially hidden */
 }
